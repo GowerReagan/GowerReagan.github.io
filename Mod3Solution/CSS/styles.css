@@ -1,0 +1,79 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: lightgray;
+}
+
+/** HEADER **/
+
+#header-nav {
+  background-color: lightslategray;
+  border-radius: 0;
+  border: 0;
+  /*height: 20vw;*/
+}
+
+.navbar-brand {
+  padding-top: 40px;
+}
+
+.navbar-brand h1 {
+  color: #ffff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0px;
+}
+
+#nav-list {
+  margin-top: 25px;
+}
+#nav-list a {
+  color: #ffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: darkgray;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #ffff;
+}
+.navbar-header button.navbar-toggle fix-height {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+.title {
+  font-size: 4rem;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.chicken {
+  font-size: 3.5rem;
+  height: 1000px;
+  width: 99%;
+  background-color: darkgray;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.text {
+  font-size: 2rem;
+  position: absolute;
+  top: 75px;
+  padding: 0 10px 20px 10px;
+}
